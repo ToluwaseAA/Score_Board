@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 class="header">Score</h1>
+        <div class="container">
+        <div class="over">
+        <div class="score-card">
+            <h2>Team 1</h2>
+            <h3 id="team-a-score"></h3>
+            <div>
+                <button class="minus-button" onclick="minus1TeamA()">-</button>
+                <button class="plus1-button" onclick="plus1TeamA()">+</button>
+                <button class="plus3-button" onclick="plus3TeamA()">+3</button>
+            </div>
+        </div>
+
+        <div class="score-card">
+            <h2>Team 2</h2>
+            <h3 id="team-b-score"></h3>
+            <div>
+                <button class="minus-button" onclick="minus1TeamB()">-</button>
+                <button class="plus1-button" onclick="plus1TeamB()">+</button>
+                <button class="plus3-button" onclick="plus3TeamB()">+3</button>
+            </div>
+        </div>
+        </div>
+        <button class="reset-button" onclick="resetScores()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
