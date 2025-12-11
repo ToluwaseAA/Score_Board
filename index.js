@@ -9,7 +9,7 @@ teamBScore.textContent = teamb;
 function updateScore(element, value) {
     element.textContent = value;
     element.classList.add('score-updated');
-    setTimeout(() => element.classList.remove('score-updated'), 300);
+    setTimeout(() => element.classList.remove('score-updated'), 400);
 }
 
 function resetScores() {
